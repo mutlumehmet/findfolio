@@ -4,14 +4,14 @@ import { siteConfig } from "@/config/site"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { buttonVariants } from "@/components/ui/button"
 
-export default function IndexPage() {
+export default function ContactPage() {
   return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10 ">
       <div className="flex justify-center">
         <div className="aspect-auto h-[180px] w-[180px] rounded-full bg-[url('/images/profile-big.jpeg')] bg-contain sm:h-[240px] sm:w-[240px]" />
       </div>
       <h1 className="cta">
-        Hello,&nbsp;
+        CONTACT,&nbsp;
         <span className="gradient-text">I&apos;m Mehmet,&nbsp;</span>
         frontend developer with strong UI/UX background
       </h1>
@@ -28,12 +28,12 @@ export default function IndexPage() {
       </div>
       <div className="flex gap-4">
         <Link
-          href={siteConfig.links.cv}
+          href={siteConfig.links.docs}
           target="_blank"
           rel="noreferrer"
           className={buttonVariants()}
         >
-          Download CV
+          Documentation
         </Link>
         <Link
           target="_blank"

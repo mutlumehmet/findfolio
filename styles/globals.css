@@ -78,4 +78,11 @@
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
+  .cta {
+    @apply text-7xl leading-[90px] sm:text-[84px] font-bold sm:leading-[84px];
+  }
+
+  .gradient-text {
+    @apply inline-block bg-gradient-main bg-clip-text text-transparent;
+  }
 }
